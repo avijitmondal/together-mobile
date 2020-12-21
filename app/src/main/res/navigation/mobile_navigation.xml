@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_conversation">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.avijitmondal.together.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_conversation"
+        android:name="com.avijitmondal.together.ui.home.ConversationFragment"
+        android:label="@string/title_conversation"
+        tools:layout="@layout/fragment_conversation" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +22,10 @@
         android:name="com.avijitmondal.together.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.avijitmondal.together.ui.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

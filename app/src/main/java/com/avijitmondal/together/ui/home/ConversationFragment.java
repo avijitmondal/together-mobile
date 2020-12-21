@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.avijitmondal.together.R;
 
-public class HomeFragment extends Fragment {
+public class ConversationFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private ConversationViewModel conversationViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        conversationViewModel =
+                new ViewModelProvider(this).get(ConversationViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_conversation, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        conversationViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

@@ -43,7 +43,8 @@
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ip" />
+        app:layout_constraintTop_toBottomOf="@+id/ip"
+        android:autofillHints="Enter port" />
 
     <EditText
         android:id="@+id/ip"
@@ -58,7 +59,8 @@
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="Enter IP" />
 
     <ProgressBar
         android:id="@+id/connecting"

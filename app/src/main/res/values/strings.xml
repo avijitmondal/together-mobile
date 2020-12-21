@@ -14,7 +14,7 @@
     <string name="login_failed">"Login failed"</string>
     <string name="https">HTTPS</string>
     <string name="title_activity_home">Home</string>
-    <string name="title_home">Conversation</string>
+    <string name="title_conversation">Conversation</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_settings">Settings</string>
