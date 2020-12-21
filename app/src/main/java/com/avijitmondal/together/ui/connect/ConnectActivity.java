@@ -1,4 +1,4 @@
-package com.avijitmondal.together;
+package com.avijitmondal.together.ui.connect;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Switch;
 
+import com.avijitmondal.together.R;
 import com.avijitmondal.together.data.Constants;
 import com.avijitmondal.together.ui.login.LoginActivity;
 
