@@ -1,4 +1,4 @@
-package com.avijitmondal.together.ui.home;
+package com.avijitmondal.together.ui.conversation;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
