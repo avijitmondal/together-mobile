@@ -1,7 +1,8 @@
-package com.avijitmondal.together;
+package com.avijitmondal.together.ui;
 
 import android.os.Bundle;
 
+import com.avijitmondal.together.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import androidx.appcompat.app.AppCompatActivity;

@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.avijitmondal.together.HomeActivity;
+import com.avijitmondal.together.ui.HomeActivity;
 import com.avijitmondal.together.R;
 
 import androidx.annotation.StringRes;
